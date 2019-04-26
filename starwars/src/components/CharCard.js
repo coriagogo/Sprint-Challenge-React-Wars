@@ -1,34 +1,34 @@
 import React from 'react';
 
+
 const CharCard = props => {
     return (
         <div className="card">
-            <h2>{props.starwarsChar.name}</h2>
+            <h2>{props.char.name}</h2>
             <p>
-                <strong>Born: </strong>{props.starwarsChar.birth_year}
+                <strong>Born: </strong>{props.char.birth_year}
             </p>
             <p>
-                <strong>Gender: </strong>{props.starwarsChar.gender}
+                <strong>Gender: </strong>{props.char.gender}
+            </p>            
+            <p>
+                <strong>Height: </strong>{props.char.height}
             </p>
             <p>
-                <strong> Home World: </strong>{props.starwarsChar.homeworld.name}
+                <strong>Mass: </strong>{props.char.mass}
             </p>
             <p>
-                <strong>Height: </strong>{props.starwarsChar.height}
+                <strong>Hair Color: </strong>{props.char.hair_color}
             </p>
             <p>
-                <strong>Mass: </strong>{props.starwarsChar.mass}
+                <strong>Eye Color: </strong>{props.char.eye_color}
             </p>
             <p>
-                <strong>Hair Color: </strong>{props.starwarsChar.hair_color}
+                <strong>Skin: </strong>{props.char.skin_color}
             </p>
-            <p>
-                <strong>Eye Color: </strong>{props.starwarsChar.eye_color}
-            </p>
-            <p>
-                <strong>Skin: </strong>{props.starwarsChar.skin_color}
-            </p>
-            
+
         </div>
     )
 }
+
+export default CharCard;

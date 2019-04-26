@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi|PT+Sans');
+
+.card {
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgba(255,255,255,.5);
+    width: 32%;
+    margin-bottom: 20px;
+    border-radius: 20px 10px 20px 10px;
+    border: 2px solid black;
+    box-shadow: 7px 7px #f69a3966;
+    color: #812A0F;
+    
+}
+
+.card h2 {
+    font-family: 'Gugi', cursive;
+    color: #812A0F;
+    text-shadow: 2px 3px #fff;
+}
+
+.Chars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+

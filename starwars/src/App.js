@@ -34,8 +34,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="Header">React Wars</h1>
-        <Chars starwarsChars={this.state.starwarsChars} />
+        <h1 className="Header glow">React Wars</h1>
+        
+          <Chars starwarsChars={this.state.starwarsChars} />
+        
       </div>
     );
   }
